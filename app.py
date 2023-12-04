@@ -28,7 +28,7 @@ cpu=st.selectbox('CPU',df['Cpu_brand'].unique())
 
 hdd=st.selectbox('HDD(in GB)',[0,128,256,512,1024,2048])
 
-ssd=st.selectbox('SSD (in GB',[0,8,128,256,512,1024])
+ssd=st.selectbox('SSD (in GB)',[0,8,128,256,512,1024])
 
 gpu = st.selectbox('GPU',df['Gpu_Brand'].unique())
 
@@ -52,4 +52,4 @@ if st.button('Predict Price'):
     query=np.array([company,type,ram,weight,touchscreen,ips,ppi,cpu,hdd,ssd,gpu,os])
 
     query=query.reshape(1,12)
-    st.title("The Predicted price of this configuration is : " +str(int(np.exp(pipe.predict(query)[0]))))
+    st.title("The Predicted price of this configuration is : ₹" +str(int(np.exp(pipe.predict(query)[0]))))
