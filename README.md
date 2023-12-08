@@ -1,6 +1,6 @@
 # Laptop_price_predictor
 
-#About Project:
+# About Project:
 
 Objective: This project aims to predict the price of a laptop based on various features such as brand, type, RAM, weight, touchscreen availability, IPS display, screen size, resolution, CPU, HDD and SSD storage, GPU, and operating system.
 
@@ -12,4 +12,9 @@ Prediction Logic: The project incorporates a machine learning pipeline (pipe) an
 
 Output: Upon clicking the "Predict Price" button, the predicted price for the configured laptop is displayed on the interface. The price is presented in Indian Rupees (₹), and it is calculated using the exponential of the predicted value from the machine learning model.
 
-Application Demo:https://laptoppricepredictor-ehekuefwobldrkpdo3thvm.streamlit.app/
+Application Demo:
+![Screenshot (7)](https://github.com/manisha809/Laptop_price_predictor/assets/74667664/57d3341b-9938-4b9f-af18-195eede76c68)
+
+
+
+url: https://laptoppricepredictor-ehekuefwobldrkpdo3thvm.streamlit.app/
